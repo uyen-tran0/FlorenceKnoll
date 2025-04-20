@@ -34,7 +34,7 @@ mark {
 /* home page */
 .hero {
     height: 100vh;
-    background-image: url("/img/FKhero.jpg");
+    background-image: url("./img/FKhero.jpg");
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
