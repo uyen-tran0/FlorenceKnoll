@@ -1,0 +1,114 @@
+body {
+    font-family: "Asap", sans-serif;
+}
+
+.cursive {
+    font-family: "Playwrite AU SA", cursive;
+}
+
+mark {
+    background-color: lavenderblush !important;
+    font-weight: 500;
+}
+
+.lead {
+    font-weight: 500;
+}
+
+.quote {
+    font-weight: 200;
+}
+
+/* nav */
+.navbar {
+    z-index: 1;
+    padding-top: .25em;
+    padding-bottom: 0.25em;
+}
+
+.nav-link {
+    color: black;
+
+}
+
+/* home page */
+.hero {
+    height: 100vh;
+    background-image: url("/img/FKhero.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.card-work {
+    height: 250px;
+    object-fit: cover;
+}
+
+
+.btn-outline-dark {
+    background-color: lavenderblush;
+    border: none;
+}
+
+.btn-outline-dark:hover {
+    background-color: lavender;
+    border: none;
+    color: black;
+    font-style: italic;
+}
+
+
+/* about */
+.bg-about {
+    background-color: lavenderblush;
+}
+
+
+/* project pages */
+.gallery-bg {
+    background-color: rgba(238, 238, 238, .7);
+}
+
+.card-gallery {
+    height: 700px;
+    object-fit: cover;
+}
+
+.card-work {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-text {
+    font-style: italic;
+}
+
+.card {
+    transition: transform 0.3s ease;
+    
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* contact */
+.contact-page {
+  background-color: lavenderblush;
+}
+
+.contact-page .btn-outline-dark {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.contact-page .btn-outline-dark:hover {
+  background-color: lavender;
+  color: black;
+  font-style: italic;
+}
